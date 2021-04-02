@@ -111,21 +111,25 @@ h3,
 .toggle-completeness {
   margin: 0 10px;
 }
+
 .task-item__text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-item .text-input {
   width: 226px;
   display: none;
 }
+
 .delete .delete__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete:hover .delete__image {
   transform: rotateZ(0);
 }
