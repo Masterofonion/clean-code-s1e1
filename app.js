@@ -38,7 +38,7 @@ var createNewTaskElement=function(taskString){
 
     //Each elements, needs appending
     checkBox.type="checkbox";
-    checkBox.classList.add("toggle-completeness");
+    checkBox.classList.add("completeness");
   
     editInput.type="text";
     editInput.className="task";
