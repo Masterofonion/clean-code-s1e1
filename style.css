@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-elements__form {
   display: flex;
 }
 ul {
@@ -61,7 +61,7 @@ button {
 }
 /* Heading */
 h3,
-.new-task-text {
+.add-elements__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,11 +87,11 @@ h3,
 }
 
 /* New Task */
-.new-task-text {
+.add-elements__title {
   display: block;
   margin: 0 0 20px;
 }
-.task-row-wrapper .text-input {
+.add-elements__form .text-input {
   width: 318px;
 }
 
@@ -111,7 +111,7 @@ h3,
 .toggle-completeness {
   margin: 0 10px;
 }
-.task-text {
+.task-item__text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -142,6 +142,6 @@ h3,
   width: 224px;
 }
 
-.edit-mode .task-text {
+.edit-mode .task-item__text {
   display: none;
 }
