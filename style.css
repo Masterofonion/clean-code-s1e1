@@ -4,6 +4,7 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -14,7 +15,7 @@ body {
   width: 100%;
 }
 .header__link {
-  font-family: "Fantasy", cursive;
+  font-family: cursive;
 }
 
 @media (max-width: 768px) {
